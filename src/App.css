@@ -37,6 +37,43 @@
   }
 }
 
+.app-title {
+    margin-top: 1rem;
+}
+
 .predictions {
     display: flex;
+}
+
+div.image-uploader {
+    background: black;
+    color: white;
+}
+
+div.fileContainer {
+    background: black;
+}
+
+.predict-button {
+    margin-bottom: 20px;
+}
+
+/* Loader */
+
+.loader-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--input-color);
+    height: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.loader-icon {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
 }
